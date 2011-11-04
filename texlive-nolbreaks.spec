@@ -1,3 +1,9 @@
+# revision 18127
+# category Package
+# catalog-ctan /macros/latex/contrib/nolbreaks
+# catalog-date 2010-05-11 12:36:30 +0200
+# catalog-license pd
+# catalog-version 1.0
 Name:		texlive-nolbreaks
 Version:	1.0
 Release:	1
@@ -41,6 +47,7 @@ macros or { } can still create break-points.
 %{_texmfdistdir}/tex/latex/nolbreaks/nolbreaks.sty
 %doc %{_texmfdistdir}/doc/latex/nolbreaks/nolbreaks.pdf
 %doc %{_texmfdistdir}/doc/latex/nolbreaks/nolbreaks.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ macros or { } can still create break-points.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
