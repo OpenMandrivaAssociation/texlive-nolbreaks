@@ -1,12 +1,12 @@
-# revision 18127
+# revision 26786
 # category Package
 # catalog-ctan /macros/latex/contrib/nolbreaks
-# catalog-date 2010-05-11 12:36:30 +0200
+# catalog-date 2012-06-01 11:46:45 +0200
 # catalog-license pd
-# catalog-version 1.0
+# catalog-version 1.2
 Name:		texlive-nolbreaks
-Version:	1.0
-Release:	2
+Version:	1.2
+Release:	1
 Summary:	No line breaks in text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nolbreaks
