@@ -48,3 +48,21 @@ macros or { } can still create break-points.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2-1
++ Revision: 812683
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
++ Revision: 754353
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 719125
+- texlive-nolbreaks
+- texlive-nolbreaks
+- texlive-nolbreaks
+- texlive-nolbreaks
+
