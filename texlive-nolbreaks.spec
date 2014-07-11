@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-nolbreaks
 Version:	1.2
-Release:	6
+Release:	7
 Summary:	No line breaks in text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nolbreaks
