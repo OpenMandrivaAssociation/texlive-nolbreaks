@@ -3,7 +3,7 @@ Version:	26786
 Release:	2
 Summary:	No line breaks in text
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nolbreaks
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nolbreaks
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nolbreaks.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nolbreaks.doc.r%{version}.tar.xz
